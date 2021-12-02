@@ -1,0 +1,17 @@
+.table {
+  border: 1px solid black;
+  overflow-x: auto;
+}
+
+
+.list {
+  /* border: 1px solid blueviolet; */
+  background-color: blueviolet;
+  height: 500px;
+  overflow-y: auto;
+  width: 100%;
+}
+
+.list::-webkit-scrollbar {
+  display: none;
+}

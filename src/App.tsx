@@ -1,9 +1,10 @@
-import styles from './App.module.css';
+import './App.css';
+import FlexTable from './VirtualTable'
 
 function App() {
   return (
-    <div className={styles.App}>
-      <h1>Hi There</h1>
+		<div>
+      <FlexTable /> 
     </div>
   );
 }
